@@ -10,6 +10,7 @@ def claude_query(prompt, model='haiku'):
     model_map = {
         'sonnet': "claude-3-sonnet-20240229",
         'haiku': "claude-3-haiku-20240307",
+        # 'haiku': "claude-3-5-haiku-20241022",
         'opus': "claude-3-opus-20240229",
     }
 
