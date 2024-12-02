@@ -1,4 +1,4 @@
-class Venue:
+class _Venue:
     """Base class for a concert venue."""
     def __init__(self, name, url, town):
         self.name = name

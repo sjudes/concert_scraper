@@ -1,5 +1,5 @@
-from concerts.venues.wigmore_hall import _Venue_WigmoreHall
+from concerts.venues.wigmore_hall import _WigmoreHall
 
-WigmoreHall = _Venue_WigmoreHall()
+wigmore_hall = _WigmoreHall()
 
-__all__ = ["WigmoreHall"]
+__all__ = ["wigmore_hall"]

@@ -1,10 +1,10 @@
 """Find concerts at Wigmore Hall."""
 import requests
 import json
-from concerts.venues.venue import Venue
+from concerts.venues.venue import _Venue
 
 
-class _Venue_WigmoreHall(Venue):
+class _WigmoreHall(_Venue):
     """The Wigmore Hall has an undocumented API.
     You can only request one 'page' at a time, but the response includes the 
     total number of pages, so you can loop through them.  
